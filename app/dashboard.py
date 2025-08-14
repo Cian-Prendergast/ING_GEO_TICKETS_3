@@ -86,14 +86,19 @@ def get_agent_status() -> Dict:
         except:
             pass
     
-    optimizer_file = DATA_DIR / "optimization_iterations" / "status.json"
-    if optimizer_file.exists():
-        try:
-            with open(optimizer_file, 'r') as f:
-                status = json.load(f)
-                optimizer_status = status.get('status', 'Unknown')
-        except:
-            pass
+    # Optimizer availability depends on Judge Agent being ready
+    if judge_status == "Production Ready":
+        optimizer_status = "Available"
+    else:
+        # Also check for explicit optimizer status file
+        optimizer_file = DATA_DIR / "optimization_iterations" / "status.json"
+        if optimizer_file.exists():
+            try:
+                with open(optimizer_file, 'r') as f:
+                    status = json.load(f)
+                    optimizer_status = status.get('status', 'Unknown')
+            except:
+                pass
     
     return {
         'judge_agent': judge_status,
