@@ -11,8 +11,8 @@ from datetime import datetime
 from pathlib import Path
 import logging
 
-from hybrid_search_engine import AIOverviewState
-from judge_agent_production import JudgeAgentProduction
+from .hybrid_search_engine import AIOverviewState
+from .judge_agent_production import JudgeAgentProduction
 
 logger = logging.getLogger(__name__)
 
