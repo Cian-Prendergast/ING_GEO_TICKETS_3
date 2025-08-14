@@ -1,0 +1,92 @@
+{
+  "stream_type": "organic_optimization",
+  "sub_intent": {
+    "sub_intent": "How to lower auto insurance costs",
+    "intent_type": "informational",
+    "user_motivation": "Users want to find practical ways to reduce their monthly expenses",
+    "search_context": "Users search this when renewing policies or evaluating new providers",
+    "aio_probability": 90,
+    "organic_probability": 85,
+    "paa_probability": 95,
+    "content_gap_score": 80,
+    "competition_level": "medium",
+    "ing_positioning_opportunity": "Showcase ING's expertise in financial planning and cost management",
+    "content_format_recommendation": "Comparison table with actionable tips",
+    "estimated_search_volume": "high",
+    "combined_optimization_score": 83.5
+  },
+  "agent_type": "organic_agent",
+  "total_iterations": 3,
+  "best_iteration": {
+    "iteration": 1,
+    "agent_id": "organic_agent_20250811_151124",
+    "gap_analysis": {
+      "error": "'str' object has no attribute 'upper()'"
+    },
+    "content_result": {
+      "error": "'str' object has no attribute 'upper()'"
+    },
+    "evaluation": {
+      "improvement_score": 0,
+      "error": "'str' object has no attribute 'upper()'"
+    },
+    "improvement_score": 0,
+    "action_taken": "error",
+    "timestamp": "2025-08-11T15:11:32.515768"
+  },
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "agent_id": "organic_agent_20250811_151124",
+      "gap_analysis": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "content_result": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "evaluation": {
+        "improvement_score": 0,
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "improvement_score": 0,
+      "action_taken": "error",
+      "timestamp": "2025-08-11T15:11:32.515768"
+    },
+    {
+      "iteration": 2,
+      "agent_id": "organic_agent_20250811_151124",
+      "gap_analysis": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "content_result": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "evaluation": {
+        "improvement_score": 0,
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "improvement_score": 0,
+      "action_taken": "error",
+      "timestamp": "2025-08-11T15:11:39.368097"
+    },
+    {
+      "iteration": 3,
+      "agent_id": "organic_agent_20250811_151124",
+      "gap_analysis": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "content_result": {
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "evaluation": {
+        "improvement_score": 0,
+        "error": "'str' object has no attribute 'upper()'"
+      },
+      "improvement_score": 0,
+      "action_taken": "error",
+      "timestamp": "2025-08-11T15:11:45.810237"
+    }
+  ],
+  "final_score": 0,
+  "completion_timestamp": "2025-08-11T15:11:45.810271"
+}

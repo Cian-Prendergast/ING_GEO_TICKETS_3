@@ -1,0 +1,102 @@
+{
+  "sub_intents": [
+    {
+      "keyword": "best insurance tips and tricks",
+      "intents": [
+        {
+          "sub_intent": "how to save money on insurance premiums",
+          "intent_type": "informational",
+          "user_motivation": "Users want actionable advice to reduce costs and maximize value from their insurance policies.",
+          "search_context": "Users search this when they feel their current insurance is expensive or are exploring new options.",
+          "aio_probability": 85,
+          "organic_probability": 75,
+          "paa_probability": 90,
+          "content_gap_score": 70,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Leverage ING's reputation for financial expertise to provide trusted cost-saving strategies.",
+          "content_format_recommendation": "Listicle with actionable tips and examples",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "how to file an insurance claim effectively",
+          "intent_type": "informational",
+          "user_motivation": "Users want to ensure they receive the maximum payout and avoid mistakes during the claim process.",
+          "search_context": "Users search this after experiencing an incident requiring an insurance claim.",
+          "aio_probability": 80,
+          "organic_probability": 70,
+          "paa_probability": 85,
+          "content_gap_score": 65,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Highlight ING's customer-centric approach and digital tools for seamless claim filing.",
+          "content_format_recommendation": "Step-by-step guide with visuals",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "how to avoid high auto insurance costs",
+          "intent_type": "informational",
+          "user_motivation": "Users want to identify strategies to lower their auto insurance expenses without compromising coverage.",
+          "search_context": "Users search this when renewing policies or comparing auto insurance providers.",
+          "aio_probability": 90,
+          "organic_probability": 80,
+          "paa_probability": 95,
+          "content_gap_score": 75,
+          "competition_level": "high",
+          "ing_positioning_opportunity": "Promote ING's digital tools for comparing insurance rates and optimizing coverage.",
+          "content_format_recommendation": "Interactive comparison tool with tips",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "common mistakes to avoid when applying for life insurance",
+          "intent_type": "informational",
+          "user_motivation": "Users want to ensure their application is accurate and avoid rejection or higher premiums.",
+          "search_context": "Users search this before applying for life insurance or switching providers.",
+          "aio_probability": 75,
+          "organic_probability": 65,
+          "paa_probability": 80,
+          "content_gap_score": 60,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Position ING as a trusted advisor for life insurance applications with clear guidance.",
+          "content_format_recommendation": "Checklist with examples of mistakes",
+          "estimated_search_volume": "medium"
+        }
+      ]
+    }
+  ],
+  "intent_clusters": [
+    {
+      "cluster_name": "insurance cost optimization",
+      "sub_intents": [
+        "how to save money on insurance premiums",
+        "how to avoid high auto insurance costs"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "ING can leverage its digital banking tools and financial expertise to provide personalized cost-saving strategies.",
+      "content_strategy": "Create a comprehensive guide with cost-saving tips across different insurance types, supported by interactive tools."
+    },
+    {
+      "cluster_name": "insurance application guidance",
+      "sub_intents": [
+        "common mistakes to avoid when applying for life insurance",
+        "how to file an insurance claim effectively"
+      ],
+      "optimization_priority": "medium",
+      "ing_competitive_advantage": "ING's customer trust and European expertise can position it as a reliable source for insurance application advice.",
+      "content_strategy": "Develop educational content with step-by-step guides and checklists to simplify the insurance application and claim process."
+    }
+  ],
+  "optimization_recommendations": {
+    "highest_probability_streams": [
+      "how to save money on insurance premiums",
+      "how to avoid high auto insurance costs",
+      "how to file an insurance claim effectively"
+    ],
+    "quick_wins": [
+      "Create listicles with actionable tips for saving on insurance premiums.",
+      "Develop interactive tools for comparing auto insurance rates."
+    ],
+    "strategic_priorities": [
+      "Invest in long-form content addressing insurance cost optimization across multiple types.",
+      "Build trust-focused content around life insurance applications and claims."
+    ]
+  }
+}

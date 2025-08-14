@@ -1,0 +1,80 @@
+# ================================
+# prompts/content_validation_prompt.txt
+# ================================
+
+Validate the optimized content for accuracy, brand compliance, and AI Overview readiness.
+
+ORIGINAL_CONTENT: {original_content}
+OPTIMIZED_CONTENT: {optimized_content}
+TARGET_QUERY: {target_query}
+SUB_INTENT: {sub_intent}
+OPTIMIZATION_GOALS: {optimization_goals}
+
+VALIDATION CRITERIA:
+1. Factual accuracy and information correctness
+2. ING brand voice and messaging consistency
+3. SEO optimization quality and keyword integration
+4. AI Overview inclusion readiness (structure, format, completeness)
+5. User intent fulfillment and value delivery
+6. Content quality and readability
+7. Competitive positioning effectiveness
+8. Technical SEO elements (headings, structure, etc.)
+
+SPECIFIC VALIDATION CHECKS:
+- Does content accurately answer the target query?
+- Is ING brand positioning clear and compelling?
+- Are optimization recommendations properly implemented?
+- Is content structure optimal for AI Overview extraction?
+- Are there any factual errors or inconsistencies?
+- Does content provide clear value to users?
+- Is the content comprehensive enough for the target intent?
+- Are technical SEO elements properly implemented?
+
+Return ONLY valid JSON:
+{{
+    "validation_results": {{
+        "factual_accuracy": {{
+            "score": number (0-100),
+            "issues_found": ["any factual errors or concerns"],
+            "verification_needed": ["claims that need fact-checking"]
+        }},
+        "brand_compliance": {{
+            "score": number (0-100),
+            "brand_voice_alignment": "assessment of ING voice consistency",
+            "brand_element_integration": ["ING elements successfully integrated"],
+            "compliance_issues": ["any brand guideline violations"]
+        }},
+        "seo_optimization": {{
+            "score": number (0-100),
+            "keyword_integration": "assessment of keyword usage",
+            "technical_elements": ["SEO elements properly implemented"],
+            "optimization_gaps": ["missing SEO opportunities"]
+        }},
+        "aio_readiness": {{
+            "score": number (0-100),
+            "structure_quality": "assessment of content structure",
+            "extraction_friendliness": "how well content supports AI Overview",
+            "completeness": "coverage of topic and user intent",
+            "format_optimization": ["format elements that support AIO inclusion"]
+        }},
+        "user_value": {{
+            "score": number (0-100),
+            "intent_fulfillment": "how well content addresses user intent",
+            "practical_value": "usefulness and actionability of content",
+            "comprehensiveness": "completeness of information provided"
+        }}
+    }},
+    "overall_assessment": {{
+        "total_score": number (0-100),
+        "readiness_level": "high|medium|low",
+        "publication_recommendation": "ready|needs_revision|major_changes_needed",
+        "key_strengths": ["main positive aspects of optimized content"],
+        "critical_issues": ["issues that must be addressed before publication"],
+        "improvement_opportunities": ["suggestions for further enhancement"]
+    }},
+    "next_steps": {{
+        "immediate_actions": ["urgent fixes needed"],
+        "recommended_improvements": ["suggested enhancements"],
+        "monitoring_metrics": ["KPIs to track after publication"]
+    }}
+}}

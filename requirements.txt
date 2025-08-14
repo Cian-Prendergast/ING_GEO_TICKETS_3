@@ -1,0 +1,28 @@
+# requirements-minimal.txt
+# Minimal dependencies to get started (about 500MB download)
+
+# Web Framework
+python-fasthtml>=0.2.5
+monsterui
+
+# AI Overview Core Components  
+sentence-transformers>=2.2.2
+rank-bm25>=0.2.2
+rerankers>=0.4.0
+
+# Essential Data Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+nltk>=3.8.1
+
+# Azure AI
+azure-ai-inference==1.0.0b9
+
+# Basic Web Requests
+requests>=2.31.0
+
+# Environment Config
+python-dotenv>=1.0.0
+
+# Note: This minimal set will get you started.
+# Add more packages from requirements.txt as needed.

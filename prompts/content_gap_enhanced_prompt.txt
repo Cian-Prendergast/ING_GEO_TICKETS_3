@@ -1,0 +1,56 @@
+# ================================
+# prompts/content_gap_enhanced_prompt.txt
+# ================================
+
+Analyze the content gap for this sub-intent based on competitor AI Overview patterns and Judge Agent analysis.
+
+SUB-INTENT: {sub_intent}
+COMPETITOR_PATTERNS: {competitor_patterns}
+OPTIMIZATION_TARGET: {optimization_target}
+JUDGE_AGENT_ANALYSIS: {judge_analysis}
+ING CONTEXT: Digital banking leader in Europe, focus on customer experience and innovation
+
+Enhanced gap analysis requirements:
+1. What content is missing that could trigger AIO inclusion (based on Judge Agent ranking)
+2. How competitors structure successful AIO content (validated by reranker scores)
+3. ING's unique positioning opportunity for this sub-intent
+4. Specific content format recommendations from Judge Agent top performers
+5. Content gaps that ING can fill better than competitors
+6. Semantic similarity opportunities identified by Judge Agent
+7. Reranking optimization strategies based on successful content patterns
+
+JUDGE AGENT INSIGHTS TO CONSIDER:
+- Current ranking position vs competitors
+- Reranker score performance analysis
+- Semantic similarity gaps with ground truth content
+- Successful content structure patterns from training data
+- Competitive weaknesses identified in hybrid search results
+
+Return ONLY valid JSON:
+{{
+    "content_gap_analysis": {{
+        "missing_content_types": ["specific content gaps ING should fill"],
+        "competitor_advantages": ["what competitors do well in AIO based on Judge analysis"],
+        "ing_opportunities": ["unique ING positioning angles for better ranking"],
+        "format_recommendations": ["specific content structures for AIO success"],
+        "content_depth_needed": "surface|detailed|comprehensive",
+        "authority_signals_needed": ["trust factors to include"],
+        "judge_agent_gaps": ["gaps identified by Judge Agent competitive analysis"],
+        "semantic_optimization_opportunities": ["ways to improve semantic similarity"]
+    }},
+    "optimization_strategy": {{
+        "primary_approach": "main optimization strategy based on Judge insights",
+        "content_structure": "recommended structure for {optimization_target}",
+        "key_messaging": ["main points to emphasize for better ranking"],
+        "differentiation": "how to stand out from competitors based on Judge analysis",
+        "target_user_journey_stage": "awareness|consideration|decision",
+        "reranker_optimization_focus": "specific areas to improve reranker performance",
+        "competitive_positioning": "how to outrank identified competitors"
+    }},
+    "judge_agent_recommendations": {{
+        "structure_improvements": ["content structure changes for better ranking"],
+        "semantic_enhancements": ["ways to improve semantic similarity"],
+        "competitive_advantages": ["opportunities to outperform competitors"],
+        "content_priorities": ["high|medium|low priority improvements"]
+    }}
+}}

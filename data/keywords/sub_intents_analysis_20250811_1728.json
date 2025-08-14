@@ -1,0 +1,102 @@
+{
+  "sub_intents": [
+    {
+      "keyword": "best insurance tips and tricks",
+      "intents": [
+        {
+          "sub_intent": "how to save money on insurance",
+          "intent_type": "informational",
+          "user_motivation": "Users want actionable advice to reduce their insurance costs.",
+          "search_context": "Users search this when they are looking to optimize their budget or compare insurance options.",
+          "aio_probability": 85,
+          "organic_probability": 70,
+          "paa_probability": 90,
+          "content_gap_score": 60,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Leverage ING's expertise in financial planning to provide unique cost-saving strategies.",
+          "content_format_recommendation": "Listicle with actionable tips and examples.",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "understanding insurance terminology",
+          "intent_type": "informational",
+          "user_motivation": "Users want to decode complex insurance jargon to make informed decisions.",
+          "search_context": "Users search this when they feel overwhelmed by technical terms in insurance policies.",
+          "aio_probability": 75,
+          "organic_probability": 65,
+          "paa_probability": 80,
+          "content_gap_score": 50,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Simplify insurance concepts using ING's trusted voice and clear communication.",
+          "content_format_recommendation": "Glossary or FAQ-style content.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "insurance mistakes to avoid",
+          "intent_type": "informational",
+          "user_motivation": "Users want to prevent common errors that could cost them money or coverage.",
+          "search_context": "Users search this when they are new to insurance or have had bad experiences in the past.",
+          "aio_probability": 80,
+          "organic_probability": 75,
+          "paa_probability": 85,
+          "content_gap_score": 55,
+          "competition_level": "low",
+          "ing_positioning_opportunity": "Highlight ING's customer-centric approach to avoid pitfalls.",
+          "content_format_recommendation": "Checklist or guide with examples.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "choosing the right insurance plan",
+          "intent_type": "commercial",
+          "user_motivation": "Users want to compare and select the best insurance plan for their needs.",
+          "search_context": "Users search this when they are actively considering purchasing insurance.",
+          "aio_probability": 90,
+          "organic_probability": 80,
+          "paa_probability": 85,
+          "content_gap_score": 70,
+          "competition_level": "high",
+          "ing_positioning_opportunity": "Showcase ING's digital tools for personalized insurance recommendations.",
+          "content_format_recommendation": "Interactive tool or comparison table.",
+          "estimated_search_volume": "high"
+        }
+      ]
+    }
+  ],
+  "intent_clusters": [
+    {
+      "cluster_name": "insurance education and cost optimization",
+      "sub_intents": [
+        "how to save money on insurance",
+        "understanding insurance terminology",
+        "insurance mistakes to avoid"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "ING can position itself as a trusted advisor by offering clear, actionable, and customer-focused content.",
+      "content_strategy": "Create a comprehensive resource hub with guides, glossaries, and cost-saving tips."
+    },
+    {
+      "cluster_name": "insurance decision-making",
+      "sub_intents": [
+        "choosing the right insurance plan"
+      ],
+      "optimization_priority": "medium",
+      "ing_competitive_advantage": "Leverage ING's digital tools and European expertise to simplify the decision-making process.",
+      "content_strategy": "Develop interactive tools and comparison content to help users make informed choices."
+    }
+  ],
+  "optimization_recommendations": {
+    "highest_probability_streams": [
+      "how to save money on insurance",
+      "choosing the right insurance plan",
+      "insurance mistakes to avoid"
+    ],
+    "quick_wins": [
+      "Create a checklist for common insurance mistakes.",
+      "Develop a glossary for insurance terminology."
+    ],
+    "strategic_priorities": [
+      "Invest in an interactive tool for insurance plan comparison.",
+      "Build a resource hub for insurance education and cost-saving tips."
+    ]
+  }
+}

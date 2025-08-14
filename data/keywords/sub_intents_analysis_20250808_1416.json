@@ -1,0 +1,127 @@
+{
+  "sub_intents": [
+    {
+      "keyword": "best insurance tips and tricks",
+      "intents": [
+        {
+          "sub_intent": "how to save money on insurance premiums",
+          "intent_type": "informational",
+          "user_motivation": "Users want actionable advice to reduce costs without compromising coverage.",
+          "search_context": "Users search this when they feel their insurance costs are too high or want to optimize their spending.",
+          "aio_probability": 85,
+          "organic_probability": 75,
+          "paa_probability": 90,
+          "content_gap_score": 70,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Leverage ING's digital tools to provide personalized insurance savings calculators.",
+          "content_format_recommendation": "Listicle with actionable tips and embedded calculators.",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "how to choose the best insurance plan",
+          "intent_type": "informational",
+          "user_motivation": "Users want guidance on selecting the most suitable insurance plan for their needs.",
+          "search_context": "Users search this when comparing options or entering a new life stage (e.g., buying a car, starting a family).",
+          "aio_probability": 80,
+          "organic_probability": 70,
+          "paa_probability": 85,
+          "content_gap_score": 65,
+          "competition_level": "high",
+          "ing_positioning_opportunity": "Highlight ING's European expertise in offering tailored insurance solutions.",
+          "content_format_recommendation": "Comparison guide with decision-making frameworks.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "how to avoid common insurance mistakes",
+          "intent_type": "informational",
+          "user_motivation": "Users want to ensure they make informed decisions and avoid costly errors.",
+          "search_context": "Users search this when they feel uncertain about their insurance knowledge or after experiencing issues.",
+          "aio_probability": 75,
+          "organic_probability": 65,
+          "paa_probability": 80,
+          "content_gap_score": 60,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Build trust by offering educational content that simplifies complex insurance topics.",
+          "content_format_recommendation": "Educational blog post with real-life examples.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "how to maximize insurance claims",
+          "intent_type": "informational",
+          "user_motivation": "Users want to ensure they receive the full benefits of their insurance coverage.",
+          "search_context": "Users search this after experiencing an incident or preparing to file a claim.",
+          "aio_probability": 90,
+          "organic_probability": 80,
+          "paa_probability": 95,
+          "content_gap_score": 75,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Provide step-by-step guides and digital tools for claim optimization.",
+          "content_format_recommendation": "Step-by-step guide with downloadable templates.",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "how to lower auto insurance costs",
+          "intent_type": "informational",
+          "user_motivation": "Users want practical strategies to reduce their car insurance expenses.",
+          "search_context": "Users search this when renewing policies or comparing quotes.",
+          "aio_probability": 85,
+          "organic_probability": 75,
+          "paa_probability": 90,
+          "content_gap_score": 70,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Offer digital tools for comparing auto insurance rates and discounts.",
+          "content_format_recommendation": "Interactive tool with cost-saving tips.",
+          "estimated_search_volume": "high"
+        }
+      ]
+    }
+  ],
+  "intent_clusters": [
+    {
+      "cluster_name": "insurance cost optimization",
+      "sub_intents": [
+        "how to save money on insurance premiums",
+        "how to lower auto insurance costs"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "ING's digital banking leadership can provide tools for cost comparison and savings tracking.",
+      "content_strategy": "Develop a unified hub for insurance savings tips, calculators, and comparison tools."
+    },
+    {
+      "cluster_name": "insurance decision-making",
+      "sub_intents": [
+        "how to choose the best insurance plan",
+        "how to avoid common insurance mistakes"
+      ],
+      "optimization_priority": "medium",
+      "ing_competitive_advantage": "Leverage ING's European expertise to offer localized insurance advice.",
+      "content_strategy": "Create educational content with decision-making frameworks and real-life examples."
+    },
+    {
+      "cluster_name": "insurance claims optimization",
+      "sub_intents": [
+        "how to maximize insurance claims"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "Provide step-by-step guides and digital tools to simplify the claims process.",
+      "content_strategy": "Develop detailed guides and templates for claim filing and optimization."
+    }
+  ],
+  "optimization_recommendations": {
+    "highest_probability_streams": [
+      "how to save money on insurance premiums",
+      "how to maximize insurance claims",
+      "how to lower auto insurance costs"
+    ],
+    "quick_wins": [
+      "Create listicles with actionable tips for insurance savings.",
+      "Develop step-by-step guides for maximizing claims.",
+      "Offer interactive tools for comparing auto insurance rates."
+    ],
+    "strategic_priorities": [
+      "Invest in a unified content hub for insurance cost optimization.",
+      "Develop localized educational content for European markets.",
+      "Expand ING's digital tools to include insurance-specific calculators and templates."
+    ]
+  }
+}

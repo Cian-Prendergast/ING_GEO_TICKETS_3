@@ -1,0 +1,69 @@
+# ================================
+# prompts/generate_content_enhanced_prompt.txt
+# ================================
+
+{action.upper()} optimized content for this ING banking sub-intent with AI Overview Judge Agent validation.
+
+SUB-INTENT: {sub_intent}
+GAP_ANALYSIS: {gap_analysis}
+OPTIMIZATION_TARGET: {optimization_target}
+ITERATION: {iteration}
+ACTION: {action}
+JUDGE_AGENT_INSIGHTS: {judge_insights}
+
+Create content optimized for {optimization_target} that:
+1. Directly addresses the user's sub-intent with precision
+2. Leverages ING's digital banking expertise and European market position
+3. Follows AI Overview-friendly structure patterns validated by Judge Agent
+4. Provides comprehensive, authoritative answers with trust signals
+5. Uses proper content format for {optimization_target} success
+6. Incorporates Judge Agent recommendations for improved ranking
+7. Structures content for optimal AI Overview extraction
+
+ENHANCED REQUIREMENTS based on Judge Agent analysis:
+- Optimize content structure for reranker performance
+- Include semantic elements that improve similarity scores
+- Address content gaps identified by competitive analysis
+- Use format patterns from successful AI Overview content
+- Ensure comprehensive coverage that outperforms competitors
+
+For {action} action, focus on:
+- Improving answer completeness and specificity based on Judge ranking
+- Adding ING's unique value proposition with authority signals
+- Structuring for snippet extraction and AI Overview inclusion
+- Including relevant authority signals validated by Judge Agent
+- Implementing competitive advantages identified in gap analysis
+
+Return ONLY valid JSON:
+{{
+    "optimized_content": {{
+        "title": "SEO-optimized title with target keywords",
+        "meta_description": "compelling meta description under 160 chars",
+        "content_body": "full optimized content text (500-1200 words) structured for AI Overview",
+        "structured_data": {{
+            "faq_questions": ["relevant FAQ questions based on sub-intent"],
+            "key_points": ["main points in list format for easy extraction"],
+            "call_to_action": "ING-specific CTA aligned with user motivation",
+            "snippet_optimization": "key snippet optimized for AIO extraction",
+            "content_sections": ["main section headings for clear structure"]
+        }},
+        "content_improvements": ["specific improvements made in this iteration"],
+        "judge_agent_optimizations": ["changes made based on Judge Agent analysis"]
+    }},
+    "optimization_metrics": {{
+        "target_probability": number (0-100),
+        "content_quality_score": number (0-100),
+        "ing_differentiation_score": number (0-100),
+        "iteration_improvement": number (0-100),
+        "aio_readiness_score": number (0-100),
+        "judge_agent_predicted_rank": number (1-10),
+        "competitive_advantage_score": number (0-100)
+    }},
+    "agent_analysis": {{
+        "action_taken": "{action}",
+        "iteration_focus": "what this iteration focused on",
+        "next_iteration_recommendation": "what to improve next",
+        "judge_agent_integration": "how Judge Agent insights were incorporated",
+        "content_structure_rationale": "reasoning behind content organization"
+    }}
+}}

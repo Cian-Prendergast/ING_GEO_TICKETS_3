@@ -1,0 +1,21 @@
+# ================================
+# prompts/judge_summary_prompt.txt
+# ================================
+
+Generate a concise AI Overview summary for the search query: "{query}"
+
+Context sources:
+{context_text}
+
+Requirements:
+1. Create a factual, well-structured summary that directly answers the query
+2. Synthesize information from multiple sources provided
+3. Use clear, authoritative language suitable for search results
+4. Keep summary between 150-300 words
+5. Structure in 2-3 paragraphs maximum
+6. Focus on the most relevant and useful information
+7. Avoid speculation or unsupported claims
+
+Format the response as a clean summary without citations or metadata.
+
+Summary:

@@ -1,0 +1,98 @@
+{
+  "aio_success_patterns": [
+    {
+      "pattern_type": "content_structure",
+      "description": "Competitor content often uses a clear hierarchical structure with headings and subheadings that align with user queries, making it easy for Google AI to parse and extract relevant information.",
+      "examples": [
+        "Competitor articles with H2 and H3 tags directly answering common AI-related questions."
+      ],
+      "ing_implementation": "Ensure ING content uses a logical structure with descriptive headings and subheadings that directly address user queries.",
+      "priority": "high"
+    },
+    {
+      "pattern_type": "writing_style",
+      "description": "Competitor content uses concise, jargon-free language that is accessible to a broad audience while maintaining technical accuracy.",
+      "examples": [
+        "Competitor articles explaining complex AI concepts in simple terms with examples."
+      ],
+      "ing_implementation": "Adopt a clear and concise writing style, avoiding unnecessary jargon while providing accurate explanations.",
+      "priority": "high"
+    },
+    {
+      "pattern_type": "format",
+      "description": "Competitor content includes bullet points, numbered lists, and tables to present information in a scannable format.",
+      "examples": [
+        "Competitor articles with bulleted lists summarizing AI benefits or use cases."
+      ],
+      "ing_implementation": "Incorporate lists, tables, and other scannable formats to make content easier to digest.",
+      "priority": "medium"
+    },
+    {
+      "pattern_type": "authority",
+      "description": "Competitor content cites reputable sources, includes expert quotes, and links to authoritative studies or whitepapers.",
+      "examples": [
+        "Competitor articles referencing research papers or quoting AI industry leaders."
+      ],
+      "ing_implementation": "Include references to credible sources, expert opinions, and relevant studies to enhance content authority.",
+      "priority": "high"
+    },
+    {
+      "pattern_type": "completeness",
+      "description": "Competitor content provides comprehensive answers to user queries, addressing potential follow-up questions within the same article.",
+      "examples": [
+        "Competitor articles that answer 'What is AI?' and also cover 'How does AI work?' and 'What are AI applications?'"
+      ],
+      "ing_implementation": "Ensure ING content anticipates and answers related follow-up questions to provide a complete user experience.",
+      "priority": "high"
+    }
+  ],
+  "content_optimization_rules": [
+    {
+      "rule": "Use descriptive headings that align with user queries.",
+      "application": "Structure ING articles with headings that directly match common AI-related search queries.",
+      "expected_impact": "Improved content discoverability and higher likelihood of AIO inclusion.",
+      "measurement": "Track the number of ING articles appearing in AIO snippets over time."
+    },
+    {
+      "rule": "Simplify complex concepts with examples and analogies.",
+      "application": "Break down technical AI concepts in ING content using relatable examples and analogies.",
+      "expected_impact": "Increased user engagement and better comprehension.",
+      "measurement": "Monitor user time-on-page and bounce rates for AI-related content."
+    },
+    {
+      "rule": "Incorporate scannable formats like lists and tables.",
+      "application": "Add bulleted lists, numbered steps, and tables to ING articles where appropriate.",
+      "expected_impact": "Enhanced readability and user satisfaction.",
+      "measurement": "Analyze scroll depth and user feedback on content usability."
+    },
+    {
+      "rule": "Cite authoritative sources and include expert insights.",
+      "application": "Link to reputable studies, whitepapers, and include quotes from AI experts in ING content.",
+      "expected_impact": "Improved content credibility and trustworthiness.",
+      "measurement": "Evaluate backlink growth and domain authority metrics."
+    },
+    {
+      "rule": "Address follow-up questions within the same article.",
+      "application": "Expand ING content to cover related subtopics and potential follow-up queries comprehensively.",
+      "expected_impact": "Higher user satisfaction and reduced need for additional searches.",
+      "measurement": "Track user session duration and content completion rates."
+    }
+  ],
+  "competitor_advantages": [
+    {
+      "competitor_strength": "Competitors provide clear, concise answers to user queries with well-structured content.",
+      "ing_differentiation": "ING can focus on creating even more user-centric content by leveraging unique insights and proprietary data.",
+      "content_gap": "Develop content that not only answers queries but also provides actionable insights and tools for users."
+    },
+    {
+      "competitor_strength": "Competitors use authoritative sources and expert opinions to build trust.",
+      "ing_differentiation": "ING can differentiate by featuring exclusive interviews with ING AI experts and showcasing proprietary research.",
+      "content_gap": "Create thought leadership pieces that highlight ING's unique expertise in AI."
+    },
+    {
+      "competitor_strength": "Competitors use scannable formats to improve readability.",
+      "ing_differentiation": "ING can enhance scannability further by incorporating interactive elements like infographics and collapsible sections.",
+      "content_gap": "Develop interactive content formats that engage users while maintaining clarity."
+    }
+  ]
+}

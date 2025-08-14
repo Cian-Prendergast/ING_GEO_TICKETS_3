@@ -1,0 +1,100 @@
+{
+  "sub_intents": [
+    {
+      "keyword": "best insurance tips and tricks",
+      "intents": [
+        {
+          "sub_intent": "how to save money on insurance premiums",
+          "intent_type": "informational",
+          "user_motivation": "Users want actionable advice to reduce costs without compromising coverage.",
+          "search_context": "Users search this when they feel their current insurance is too expensive or when comparing options.",
+          "aio_probability": 85,
+          "organic_probability": 75,
+          "paa_probability": 90,
+          "content_gap_score": 70,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Leverage ING's digital tools to offer personalized insurance savings calculators.",
+          "content_format_recommendation": "Listicle with actionable tips and embedded calculators.",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "how to maximize insurance benefits",
+          "intent_type": "informational",
+          "user_motivation": "Users want to ensure they are fully utilizing their insurance policies.",
+          "search_context": "Users search this when filing claims or reviewing policy details.",
+          "aio_probability": 80,
+          "organic_probability": 70,
+          "paa_probability": 85,
+          "content_gap_score": 65,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Highlight ING's expertise in simplifying complex insurance terms and processes.",
+          "content_format_recommendation": "Step-by-step guide with visual aids and FAQs.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "how to avoid common insurance mistakes",
+          "intent_type": "informational",
+          "user_motivation": "Users want to avoid pitfalls that could lead to higher costs or claim denials.",
+          "search_context": "Users search this when applying for new policies or during renewal periods.",
+          "aio_probability": 75,
+          "organic_probability": 65,
+          "paa_probability": 80,
+          "content_gap_score": 60,
+          "competition_level": "low",
+          "ing_positioning_opportunity": "Provide ING-backed educational content to build trust and credibility.",
+          "content_format_recommendation": "Checklist with examples of mistakes and solutions.",
+          "estimated_search_volume": "medium"
+        }
+      ]
+    }
+  ],
+  "intent_clusters": [
+    {
+      "cluster_name": "insurance cost optimization",
+      "sub_intents": [
+        "how to save money on insurance premiums",
+        "how to avoid paying high auto insurance"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "ING can use its digital banking leadership to integrate insurance cost-saving tools into its app.",
+      "content_strategy": "Create a unified hub for insurance savings tips, calculators, and comparison tools."
+    },
+    {
+      "cluster_name": "insurance usage maximization",
+      "sub_intents": [
+        "how to maximize insurance benefits",
+        "how to get the most out of an insurance claim"
+      ],
+      "optimization_priority": "medium",
+      "ing_competitive_advantage": "ING's European expertise can position it as a trusted advisor for navigating complex insurance systems.",
+      "content_strategy": "Develop detailed guides and interactive content to educate users on policy optimization."
+    },
+    {
+      "cluster_name": "insurance application guidance",
+      "sub_intents": [
+        "how to avoid common insurance mistakes",
+        "what not to say when applying for life insurance"
+      ],
+      "optimization_priority": "low",
+      "ing_competitive_advantage": "ING can offer pre-application checklists and AI-driven insights to simplify the process.",
+      "content_strategy": "Focus on educational content with practical examples and downloadable resources."
+    }
+  ],
+  "optimization_recommendations": {
+    "highest_probability_streams": [
+      "how to save money on insurance premiums",
+      "how to maximize insurance benefits",
+      "how to avoid paying high auto insurance"
+    ],
+    "quick_wins": [
+      "Create listicles with actionable tips",
+      "Embed calculators for savings estimation",
+      "Develop FAQs for common insurance questions"
+    ],
+    "strategic_priorities": [
+      "Invest in interactive tools for insurance cost optimization",
+      "Build a comprehensive educational hub for insurance usage",
+      "Leverage ING's digital banking platform for seamless insurance integration"
+    ]
+  }
+}

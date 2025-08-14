@@ -1,0 +1,77 @@
+# ================================
+# prompts/optimizer_recommendations_prompt.txt
+# ================================
+
+Generate specific, actionable content optimization recommendations for AI Overview inclusion.
+
+CONTENT_ANALYSIS: {content_analysis}
+TARGET_QUERY: {target_query}
+SUB_INTENT: {sub_intent}
+JUDGE_EVALUATION: {judge_evaluation}
+COMPETITOR_DATA: {competitor_data}
+CURRENT_PERFORMANCE: {current_performance}
+
+Based on the Judge Agent analysis and content evaluation, provide detailed optimization recommendations that will improve AI Overview inclusion probability.
+
+ANALYSIS CONTEXT:
+- Current AI Overview inclusion probability: {current_probability}%
+- Content ranking position: #{content_rank}
+- Reranker score: {reranker_score}
+- Top competitors identified: {competitor_count}
+- Content gaps identified: {gap_count}
+
+Generate recommendations that:
+1. Address specific ranking weaknesses identified by Judge Agent
+2. Improve content structure for better reranker performance
+3. Enhance semantic similarity with successful AI Overview content
+4. Provide competitive advantages over identified competitors
+5. Include specific implementation guidance and effort estimates
+6. Prioritize recommendations by expected impact on inclusion probability
+
+Return ONLY valid JSON:
+{{
+    "optimization_recommendations": [
+        {{
+            "category": "content_structure|keyword_optimization|competitive_analysis|technical_seo|content_quality",
+            "priority": "critical|high|medium|low",
+            "title": "clear, actionable recommendation title",
+            "description": "detailed explanation of the issue and opportunity",
+            "specific_actions": [
+                "concrete action item 1",
+                "concrete action item 2",
+                "concrete action item 3"
+            ],
+            "implementation_difficulty": "easy|medium|hard",
+            "expected_improvement": "+X-Y% inclusion probability",
+            "effort_required": "low|medium|high",
+            "implementation_time": "time estimate",
+            "judge_agent_rationale": "why this recommendation based on Judge analysis",
+            "success_metrics": ["how to measure improvement"]
+        }}
+    ],
+    "quick_wins": [
+        {{
+            "action": "immediate action for quick improvement",
+            "expected_impact": "+X% probability",
+            "implementation_time": "time estimate"
+        }}
+    ],
+    "implementation_roadmap": {{
+        "phase_1_quick_wins": ["immediate improvements (1-3 days)"],
+        "phase_2_content_enhancement": ["medium-term improvements (1-2 weeks)"],
+        "phase_3_advanced_optimization": ["advanced improvements (2-4 weeks)"],
+        "total_timeline": "overall implementation timeline",
+        "resource_requirements": ["required skills/resources"]
+    }},
+    "competitive_analysis": {{
+        "top_competitor_advantages": ["what competitors do better"],
+        "opportunities_to_outrank": ["specific ways to outperform competitors"],
+        "content_differentiation_strategies": ["unique positioning opportunities"]
+    }},
+    "predicted_outcomes": {{
+        "probability_after_quick_wins": number (0-100),
+        "probability_after_full_implementation": number (0-100),
+        "confidence_level": "high|medium|low",
+        "success_likelihood": "probability of achieving predicted improvement"
+    }}
+}}

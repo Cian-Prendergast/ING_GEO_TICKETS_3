@@ -1,0 +1,69 @@
+# ================================
+# prompts/ing_brand_optimization_prompt.txt
+# ================================
+
+Optimize this banking content for ING's brand positioning and AI Overview inclusion.
+
+CONTENT: {content}
+TARGET_QUERY: {target_query}
+SUB_INTENT: {sub_intent}
+OPTIMIZATION_CONTEXT: {optimization_context}
+
+ING BRAND CONTEXT:
+- Digital banking leader in Europe
+- Focus on customer experience and innovation
+- Orange brand color and "Do your thing" philosophy
+- Commitment to sustainability and responsible banking
+- Pioneer in mobile banking and digital solutions
+- Strong European presence with global expertise
+
+OPTIMIZATION REQUIREMENTS:
+1. Maintain ING's innovative, customer-first brand voice
+2. Highlight ING's digital banking expertise and leadership
+3. Include relevant trust signals and authority indicators
+4. Emphasize customer benefits and practical solutions
+5. Incorporate sustainability and responsible banking where relevant
+6. Structure content for optimal AI Overview extraction
+7. Ensure content aligns with "Do your thing" empowerment philosophy
+
+AI OVERVIEW OPTIMIZATION REQUIREMENTS:
+- Clear, scannable content structure with headings
+- Direct answers to user queries in first paragraph
+- Bullet points and lists for easy extraction
+- Authoritative tone with specific, factual information
+- Comprehensive coverage of the topic
+- Natural keyword integration
+- FAQ-style sections for common questions
+
+Return ONLY valid JSON:
+{{
+    "optimized_content": {{
+        "title": "ING-branded, SEO-optimized title",
+        "meta_description": "compelling meta description highlighting ING expertise",
+        "content_body": "full optimized content with ING brand integration",
+        "brand_elements": {{
+            "ing_value_propositions": ["key ING advantages highlighted"],
+            "trust_signals": ["authority indicators included"],
+            "customer_benefits": ["specific benefits for users"],
+            "call_to_action": "ING-specific CTA aligned with brand"
+        }},
+        "aio_optimization_elements": {{
+            "structured_headings": ["H2/H3 headings used"],
+            "scannable_content": ["bullet points and lists included"],
+            "direct_answers": "clear answer to main query",
+            "faq_section": ["relevant FAQ questions"]
+        }}
+    }},
+    "brand_integration_analysis": {{
+        "ing_differentiation_score": number (0-100),
+        "brand_voice_consistency": "assessment of brand voice alignment",
+        "trust_signal_strength": "evaluation of authority indicators",
+        "customer_value_clarity": "how clearly customer benefits are communicated"
+    }},
+    "aio_readiness_assessment": {{
+        "structure_score": number (0-100),
+        "content_completeness": number (0-100),
+        "extraction_friendliness": number (0-100),
+        "overall_aio_readiness": number (0-100)
+    }}
+}}

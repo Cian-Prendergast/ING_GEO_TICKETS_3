@@ -1,0 +1,61 @@
+# ================================
+# prompts/evaluate_content_enhanced_prompt.txt
+# ================================
+
+Evaluate the quality of this optimized content for {optimization_target} with enhanced Judge Agent analysis.
+
+CONTENT_RESULT: {content_result}
+SUB-INTENT: {sub_intent}
+OPTIMIZATION_TARGET: {optimization_target}
+JUDGE_AGENT_METRICS: {judge_metrics}
+
+Evaluate based on enhanced GEO methodology criteria:
+1. Sub-intent alignment (how well it addresses specific user need)
+2. ING brand positioning (leverages ING strengths effectively)
+3. SEO optimization quality (structure, keywords, meta optimization)
+4. Competitive differentiation (stands out from competitors)
+5. Content completeness (comprehensive answer coverage)
+6. AIO inclusion probability (likelihood of Google selection - enhanced by Judge Agent analysis)
+7. Authority and trust signals (credibility indicators)
+8. Judge Agent validation score (reranking and semantic similarity performance)
+
+ENHANCED ANALYSIS REQUIREMENTS:
+- Consider Judge Agent ranking position and reranker score
+- Factor in semantic similarity with ground truth AI Overviews
+- Evaluate content structure for AI Overview extraction
+- Assess competitive performance against established content
+
+Return ONLY valid JSON:
+{{
+    "evaluation_scores": {{
+        "sub_intent_alignment": number (0-100),
+        "ing_positioning": number (0-100),
+        "seo_optimization": number (0-100),
+        "competitive_differentiation": number (0-100),
+        "content_completeness": number (0-100),
+        "aio_inclusion_probability": number (0-100),
+        "authority_signals": number (0-100),
+        "judge_agent_validation": number (0-100)
+    }},
+    "improvement_score": number (0-100),
+    "judge_agent_insights": {{
+        "ranking_performance": "analysis of ranking against competitors",
+        "content_quality_assessment": "evaluation of content structure and relevance",
+        "optimization_priority": "areas needing immediate attention"
+    }},
+    "optimization_recommendations": [
+        {{
+            "area": "improvement area",
+            "recommendation": "specific improvement action",
+            "priority": "high|medium|low",
+            "implementation": "how to implement",
+            "judge_agent_insight": "how this relates to Judge Agent analysis"
+        }}
+    ],
+    "next_iteration_focus": "what to improve in next iteration based on Judge analysis",
+    "content_readiness": {{
+        "ready_for_publication": boolean,
+        "aio_inclusion_confidence": "high|medium|low",
+        "remaining_improvements": ["areas still needing work"]
+    }}
+}}

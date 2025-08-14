@@ -1,0 +1,110 @@
+{
+  "sub_intents": [
+    {
+      "keyword": "best insurance tips and tricks",
+      "intents": [
+        {
+          "sub_intent": "how to save money on insurance premiums",
+          "intent_type": "informational",
+          "user_motivation": "Users want actionable advice to reduce their insurance costs.",
+          "search_context": "Users search this when they feel their current insurance is too expensive or are exploring new policies.",
+          "aio_probability": 85,
+          "organic_probability": 75,
+          "paa_probability": 90,
+          "content_gap_score": 70,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Leverage ING's reputation for financial expertise to provide cost-saving strategies.",
+          "content_format_recommendation": "Listicle with actionable tips and examples.",
+          "estimated_search_volume": "high"
+        },
+        {
+          "sub_intent": "understanding key insurance terms and rules",
+          "intent_type": "informational",
+          "user_motivation": "Users want to make informed decisions by understanding insurance jargon and rules.",
+          "search_context": "Users search this when they are confused about terms like '5 P's of insurance' or '15/30/5 rule.'",
+          "aio_probability": 80,
+          "organic_probability": 70,
+          "paa_probability": 85,
+          "content_gap_score": 65,
+          "competition_level": "medium",
+          "ing_positioning_opportunity": "Simplify complex terms with clear explanations and examples.",
+          "content_format_recommendation": "Glossary-style content with FAQs.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "what to avoid when dealing with insurance adjusters",
+          "intent_type": "informational",
+          "user_motivation": "Users want to avoid mistakes that could negatively impact their claims.",
+          "search_context": "Users search this when preparing to interact with insurance adjusters after an incident.",
+          "aio_probability": 75,
+          "organic_probability": 65,
+          "paa_probability": 80,
+          "content_gap_score": 60,
+          "competition_level": "low",
+          "ing_positioning_opportunity": "Provide trust-building advice that aligns with ING's customer-first approach.",
+          "content_format_recommendation": "Step-by-step guide with do's and don'ts.",
+          "estimated_search_volume": "medium"
+        },
+        {
+          "sub_intent": "how to choose the best insurance policy",
+          "intent_type": "commercial",
+          "user_motivation": "Users want to compare policies and find the best value for their needs.",
+          "search_context": "Users search this when they are actively shopping for insurance.",
+          "aio_probability": 90,
+          "organic_probability": 80,
+          "paa_probability": 85,
+          "content_gap_score": 75,
+          "competition_level": "high",
+          "ing_positioning_opportunity": "Highlight ING's digital tools for comparing and selecting policies.",
+          "content_format_recommendation": "Interactive comparison tool with policy recommendations.",
+          "estimated_search_volume": "high"
+        }
+      ]
+    }
+  ],
+  "intent_clusters": [
+    {
+      "cluster_name": "insurance cost-saving strategies",
+      "sub_intents": [
+        "how to save money on insurance premiums",
+        "understanding key insurance terms and rules"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "ING can position itself as a trusted advisor offering transparent and practical financial solutions.",
+      "content_strategy": "Create a comprehensive guide that combines cost-saving tips with clear explanations of insurance terms."
+    },
+    {
+      "cluster_name": "insurance claims and interactions",
+      "sub_intents": [
+        "what to avoid when dealing with insurance adjusters"
+      ],
+      "optimization_priority": "medium",
+      "ing_competitive_advantage": "Leverage ING's customer trust to provide empathetic and actionable advice.",
+      "content_strategy": "Develop content that addresses common mistakes and offers reassurance during the claims process."
+    },
+    {
+      "cluster_name": "policy selection and comparison",
+      "sub_intents": [
+        "how to choose the best insurance policy"
+      ],
+      "optimization_priority": "high",
+      "ing_competitive_advantage": "Showcase ING's digital tools and European expertise in simplifying policy selection.",
+      "content_strategy": "Offer an interactive tool or calculator to help users compare policies and make informed decisions."
+    }
+  ],
+  "optimization_recommendations": {
+    "highest_probability_streams": [
+      "how to save money on insurance premiums",
+      "how to choose the best insurance policy",
+      "understanding key insurance terms and rules"
+    ],
+    "quick_wins": [
+      "Create a listicle on cost-saving tips.",
+      "Develop a glossary of insurance terms with FAQs."
+    ],
+    "strategic_priorities": [
+      "Invest in an interactive policy comparison tool.",
+      "Build a comprehensive guide on insurance cost-saving strategies."
+    ]
+  }
+}
