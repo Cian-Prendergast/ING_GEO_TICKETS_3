@@ -1,4 +1,0 @@
-{
-  "response": "```json\n{\n    \"sub_intents\": [],\n    \"intent_clusters\": [],\n    \"optimization_recommendations\": {\n        \"highest_probability_streams\": [],\n        \"quick_wins\": [],\n        \"strategic_priorities\": []\n    }\n}\n```",
-  "parse_error": "Expecting value: line 1 column 1 (char 0)"
-}
